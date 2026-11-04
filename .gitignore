@@ -1,0 +1,22 @@
+# Nunca versionar credenciais nem artefatos com dados de clientes
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.db
+*.sql.gz
+*.dump
+*.bak
+*.log
+secrets/
+credenciais/
+auditorias-privadas/
+relatorios-reais/
+node_modules/
+__pycache__/
+.pytest_cache/
+.DS_Store
