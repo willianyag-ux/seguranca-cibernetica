@@ -1,0 +1,16 @@
+name: Validar integridade da skill
+on:
+  push:
+  pull_request:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fazer checkout
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validar arquivos e consistência
+        run: python scripts/verificar_estrutura.py
