@@ -44,8 +44,22 @@ Seguranca-Cibernetica-Universal/
 ├── referencias/                  # Checklist, aceite, relatório e guia
 ├── prompts/                      # Exemplos de acionamento por fase
 ├── scripts/                      # Verificação local de consistência
+├── tests/                        # Testes automatizados de integridade
+├── SECURITY.md                   # Divulgação responsável
+├── CONTRIBUTING.md               # Regras de contribuição
 └── docs/                         # Publicação segura no GitHub
 ```
+
+## Versão 2.0 e governança
+
+- **Autorização por ação:** [Matriz de permissões](referencias/matriz-autorizacoes.md).
+- **Segurança de agentes:** [Proteção contra prompt injection](referencias/seguranca-agentes-ia.md).
+- **Relato responsável:** [SECURITY.md](SECURITY.md).
+- **Contribuições:** [CONTRIBUTING.md](CONTRIBUTING.md).
+- **Validação:** execute `python3 scripts/verificar_estrutura.py` e `python3 -m unittest discover -s tests -v`; o workflow de CI executa os mesmos testes.
+- **Licenciamento:** licença MIT, com uso, modificação e distribuição permitidos.
+
+O ConectAI é somente um **perfil opcional**. O protocolo deve confirmar a arquitetura de cada projeto em vez de presumir tecnologias ou permissões.
 
 ## Política de segurança da execução
 
@@ -58,7 +72,7 @@ Seguranca-Cibernetica-Universal/
 
 ## Compartilhamento pelo GitHub
 
-Leia [`docs/PUBLICACAO_GITHUB.md`](docs/PUBLICACAO_GITHUB.md). **O projeto já está no GitHub como repositório privado.** Seu mantenedor pode compartilhar arquivos por ZIP ou convidar colaboradores. A licença MIT permite redistribuição, mas não concede acesso automático ao repositório privado.
+Leia [`docs/PUBLICACAO_GITHUB.md`](docs/PUBLICACAO_GITHUB.md). A visibilidade do repositório é definida pelo mantenedor e não é determinada pela licença MIT. Ele pode compartilhar arquivos por ZIP ou convidar colaboradores. A licença MIT permite redistribuição, mas não concede acesso automático ao repositório privado.
 
 ## Referências técnicas
 
@@ -72,4 +86,4 @@ Leia [`docs/PUBLICACAO_GITHUB.md`](docs/PUBLICACAO_GITHUB.md). **O projeto já e
 
 ## Licença liberada para uso
 
-**Licença MIT.** Uso gratuito, cópia, modificação, redistribuição e uso comercial são permitidos, desde que o aviso de direitos autorais e a licença sejam mantidos. Consulte [`LICENSE`](LICENSE). A licença não autoriza acesso a sistemas ou dados de terceiros.
+**Licença MIT.** Uso gratuito, cópia, modificação, redistribuição e uso comercial são permitidos, desde que o aviso de direitos autorais e a licença sejam mantidos. Consulte [`LICENSE`](LICENSE). A licença não autoriza acesso a sistemas ou dados de terceiros nem o uso indevido de ferramentas de segurança.
