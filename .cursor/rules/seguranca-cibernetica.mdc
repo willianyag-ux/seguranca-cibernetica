@@ -1,9 +1,9 @@
 ---
-description: Auditoria, correção e revisão de segurança do sistema ConectAI com controles de aprovação e proteção do Protheus.
+description: Auditoria, correção e revisão de segurança de aplicações e sistemas com controles de aprovação e proteção do Protheus.
 alwaysApply: false
 ---
 
-# Segurança ConectAI
+# Segurança Cibernética
 
 Quando trabalhar em proteção de API, autenticação, SQL, permissões, uploads, logs, incidentes, segurança de dependências ou revisão pré-publicação, **abra `SKILL.md` e siga integralmente suas instruções**. Use `referencias/` sob demanda.
 

@@ -1,4 +1,4 @@
-# Checklist técnico de auditoria do ConectAI
+# Checklist técnico de auditoria de segurança cibernética
 
 Preencher cada controle com: **Conforme / Não conforme / Não aplicável / Não verificado**, evidência mascarada, componente afetado e risco. Priorizar pontos efetivamente expostos. Esta lista não substitui a leitura das referências OWASP originais.
 

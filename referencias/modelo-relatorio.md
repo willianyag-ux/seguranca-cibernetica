@@ -1,4 +1,4 @@
-# Modelo de relatório: Segurança ConectAI
+# Modelo de relatório: Segurança Cibernética
 
 **Relatório nº:** [IDENTIFICADOR]  
 **Data da análise:** [DATA]  
@@ -45,7 +45,7 @@ Descrever exclusivamente componentes inspecionados, fontes, fluxos, dados pessoa
 
 Relatar resultados negativos, falhas de regressão e verificações não realizadas. Nunca declarar testes inexistentes.
 
-## 6. Particularidades obrigatórias do ConectAI
+## 6. Particularidades condicionais: perfil ConectAI (quando aplicável)
 
 - **Protheus:** conexão permanece exclusivamente SELECT? [Confirmado / Não confirmado] + evidência
 - **Perfis e RBAC:** acesso segregado de administrador/gestor/colaborador? [Estado]

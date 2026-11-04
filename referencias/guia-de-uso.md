@@ -1,4 +1,4 @@
-# Guia de uso multiplataforma: Segurança ConectAI
+# Guia de uso multiplataforma: Segurança Cibernética
 
 ## Em qualquer IA, mesmo sem recurso de Skills
 
@@ -15,11 +15,11 @@ Use `PROMPT_UNIVERSAL.md` como instrução/anexo e dê acesso ao projeto atravé
 
 ## Claude (navegador)
 
-Empacote somente o conteúdo da pasta `.claude/skills/seguranca-conectai/` em ZIP, mantendo `SKILL.md` na raiz interna da pasta da skill conforme a interface de importação. Importe pela função de Skills, quando disponível. Você também pode enviar `PROMPT_UNIVERSAL.md` ao chat diretamente.
+Empacote somente o conteúdo da pasta `.claude/skills/seguranca-cibernetica/` em ZIP, mantendo `SKILL.md` na raiz interna da pasta da skill conforme a interface de importação. Importe pela função de Skills, quando disponível. Você também pode enviar `PROMPT_UNIVERSAL.md` ao chat diretamente.
 
 ## Claude Code
 
-Dentro do projeto, mantenha `CLAUDE.md` na raiz e `.claude/skills/seguranca-conectai/SKILL.md` com seus arquivos `referencias`. Peça para usar `/seguranca-conectai` ou mencione o nome da skill.
+Dentro do projeto, mantenha `CLAUDE.md` na raiz e `.claude/skills/seguranca-cibernetica/SKILL.md` com seus arquivos `referencias`. Peça para usar `/seguranca-cibernetica` ou mencione o nome da skill.
 
 ## Codex
 
@@ -31,7 +31,7 @@ Use `GEMINI.md`, `SKILL.md` e `referencias/` na raiz. Peça que a ferramenta abr
 
 ## Cursor
 
-Copie `.cursor/rules/seguranca-conectai.mdc`, `SKILL.md` e `referencias/` para o projeto. A regra está configurada para uso por relevância, não universalmente ativa.
+Copie `.cursor/rules/seguranca-cibernetica.mdc`, `SKILL.md` e `referencias/` para o projeto. A regra está configurada para uso por relevância, não universalmente ativa.
 
 ## GitHub Copilot
 
@@ -39,7 +39,7 @@ Inclua `.github/copilot-instructions.md`, `SKILL.md` e `referencias/` no reposit
 
 ## Prompt de ativação universal
 
-> Leia e siga as instruções da Segurança ConectAI. Inicie em modo diagnóstico, somente leitura. Examine o que estiver realmente acessível, registre o não verificado, priorize achados por risco e entregue plano de correção. Não modifique arquivos ou produção sem aprovação específica.
+> Leia e siga as instruções da Segurança Cibernética. Inicie em modo diagnóstico, somente leitura. Examine o que estiver realmente acessível, registre o não verificado, priorize achados por risco e entregue plano de correção. Não modifique arquivos ou produção sem aprovação específica.
 
 ## Observação
 
