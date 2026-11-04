@@ -1,0 +1,10 @@
+---
+description: Auditoria, correção e revisão de segurança do sistema ConectAI com controles de aprovação e proteção do Protheus.
+alwaysApply: false
+---
+
+# Segurança ConectAI
+
+Quando trabalhar em proteção de API, autenticação, SQL, permissões, uploads, logs, incidentes, segurança de dependências ou revisão pré-publicação, **abra `SKILL.md` e siga integralmente suas instruções**. Use `referencias/` sob demanda.
+
+Sempre iniciar com diagnóstico somente leitura; não editar ou publicar sem autorização específica. Protheus é exclusivo SELECT. Não revelar segredos ou dados pessoais. Reportar apenas achados testados como confirmados. Responder em português do Brasil.
