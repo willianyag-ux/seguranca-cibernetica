@@ -1,4 +1,4 @@
-# Contexto para Gemini CLI: Segurança ConectAI
+# Contexto para Gemini CLI: Segurança Cibernética
 
 Para tarefas de AppSec, auditoria, risco, autenticação, APIs, banco, segurança de RH e deploy do ConectAI: leia `SKILL.md` e siga seu fluxo completo, consultando `referencias/` sob demanda.
 

@@ -1,4 +1,4 @@
-# Instruções para agentes de programação: Segurança ConectAI
+# Instruções para agentes de programação: Segurança Cibernética
 
 Ao receber pedidos de auditoria de segurança, proteção de dados, análise de vulnerabilidades, correção de riscos ou verificação de publicação, **leia e siga `SKILL.md` integralmente** e carregue apenas as referências necessárias em `referencias/`.
 

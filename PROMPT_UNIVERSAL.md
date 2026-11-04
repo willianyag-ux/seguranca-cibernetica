@@ -1,8 +1,8 @@
-# PROMPT UNIVERSAL | Segurança ConectAI
+# PROMPT UNIVERSAL | Segurança Cibernética
 
 **Instrução para qualquer IA:** adote integralmente o protocolo abaixo. Se não tiver acesso aos arquivos de referência ou ao código, informe essa limitação e não invente análises. Execute inicialmente apenas inspeção sem alterações.
 
-# Segurança ConectAI
+# Segurança Cibernética
 
 ## Objetivo e acionamento
 

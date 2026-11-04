@@ -4,7 +4,7 @@ Este pacote está preparado para Git, mas **ainda não foi enviado ao GitHub**.
 
 ## Antes de publicar
 
-1. Preferir **repositório privado** inicialmente. O contexto do ConectAI pode conter detalhes internos de arquitetura e regras de negócio, ainda que esta skill não contenha senhas.
+1. Preferir **repositório privado** inicialmente. Um projeto auditado pode conter detalhes internos de arquitetura e regras de negócio, ainda que esta skill não contenha senhas.
 2. Inspecionar `SKILL.md`, `README.md`, `referencias/`, `prompts/` e o histórico local para confirmar ausência de nomes de servidores privados, IPs, credenciais, dados pessoais e informações restritas.
 3. Não copiar `.env`, backups, bancos, certificados, capturas de tela com colaboradores ou relatórios reais de vulnerabilidade.
 4. Se houver uma falha confirmada, manter provas e dados de reprodução em canal privado, não em issues públicas.
@@ -12,15 +12,15 @@ Este pacote está preparado para Git, mas **ainda não foi enviado ao GitHub**.
 
 ## Criar repositório privado localmente e enviar ao GitHub
 
-Crie no GitHub um repositório **privado** vazio, por exemplo `seguranca-conectai`. Na máquina onde extraiu o pacote, execute:
+Crie no GitHub um repositório **privado** vazio, por exemplo `seguranca-cibernetica`. Na máquina onde extraiu o pacote, execute:
 
 ```bash
-cd Seguranca-ConectAI-Universal
+cd Seguranca-Cibernetica-Universal
 git init
 git add .
-git commit -m "feat: skill universal Segurança ConectAI"
+git commit -m "feat: skill universal Segurança Cibernética"
 git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/seguranca-conectai.git
+git remote add origin https://github.com/SEU_USUARIO/seguranca-cibernetica.git
 git push -u origin main
 ```
 
